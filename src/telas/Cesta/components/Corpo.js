@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, Image, StyleSheet } from "react-native"
+import Pressable from "react-native/Libraries/Components/Pressable/Pressable";
 import logo from "../../../../assets/logo.png"
 
 export default function Corpo() {
@@ -11,6 +12,9 @@ export default function Corpo() {
         </View>
         <Text style={estilos.description}>Uma unidade de uma caixa de 1L de leite da conhecida Itambé, responsável por produtos lacteos de grande qualidade.</Text>
         <Text style={estilos.price}>R$ 5,00</Text>
+        <Pressable style={ ({pressed}) => [{opacity: pressed ? 0.6 : 1}, estilos.button] } onPress={() => {}}>
+            <Text style={estilos.textButton}>Comprar</Text>
+        </Pressable>
     </>
 }
 
@@ -47,4 +51,17 @@ const estilos = StyleSheet.create({
         marginTop: 8,
         fontWeight: "bold"
     },
+    button: {
+        backgroundColor: "#2A9F85",
+        marginTop: 16,
+        paddingVertical: 16,
+        borderRadius: 6
+    },
+    textButton: {
+        textAlign: "center",
+        fontFamily: "MontserratBold",
+        color: "#ffffff",
+        fontSize: 16,
+        lineHeight: 26
+    }
 })
