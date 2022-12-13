@@ -33,8 +33,8 @@ const estilos = StyleSheet.create({
         fontSize: 16, 
         lineHeight: 26,
         color: "white",
-        fontWeight: "bold",
-        padding: 66
+        padding: 66,
+        fontFamily: "MontserratBold"
     }, 
     cesta: {
         paddingHorizontal: 16,
@@ -57,7 +57,8 @@ const estilos = StyleSheet.create({
     fornecedor: {
         fontSize: 16,
         lineHeight: 26,
-        marginLeft: 12
+        marginLeft: 12,
+        fontFamily: "MontserratRegular"
     },
     description: {
         color: "#A3A3A3",
