@@ -24,7 +24,7 @@ const estilos = StyleSheet.create({
         fontSize: 16, 
         lineHeight: 26,
         color: "white",
-        padding: 66,
+        padding: 16,
         fontFamily: "MontserratBold"
     }
 })
