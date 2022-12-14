@@ -1,7 +1,8 @@
 import React, { useCallback } from 'react';
 import {StatusBar, SafeAreaView } from 'react-native';
-import Cesta from './src/telas/Cesta';
 import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
+import Cesta from './src/telas/Cesta';
+import Home from "./src/telas/Home"
 import * as SplashScreen from 'expo-splash-screen';
 
 SplashScreen.preventAutoHideAsync();
@@ -28,7 +29,8 @@ export default function App() {
   return (
     <SafeAreaView onLayout={onLayoutRootView}>
       <StatusBar />
-      <Cesta />
+      <Home />
+      {/* <Cesta /> */}
     </SafeAreaView>
   );
 }
