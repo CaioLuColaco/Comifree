@@ -9,19 +9,11 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 const Stack = createNativeStackNavigator();
 
-import Cesta from './src/telas/Cesta';
 import Home from "./src/telas/Home"
 import Fornecedor from "./src/telas/Fornecedor"
+import Cesta from './src/telas/Cesta';
 
 SplashScreen.preventAutoHideAsync();
-
-function HomeScreen() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
-    </View>
-  );
-}
 
 export default function App() {
   // Loading fonts
@@ -49,6 +41,7 @@ export default function App() {
           <Stack.Navigator initialRouteName="Home">
             <Stack.Screen name="Home" component={Home} />
             <Stack.Screen name="Fornecedor" component={Fornecedor} />
+            <Stack.Screen name="Cesta" component={Cesta} />
           </Stack.Navigator>
         </NavigationContainer>
       </SafeAreaProvider>

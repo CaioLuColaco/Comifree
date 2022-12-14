@@ -30,25 +30,25 @@ export default function Home({ navigation }) {
           cestas: [
             {
               detalhes: {
-                nome: "Brócolis e Pepino",
+                nome: "Brócolis e Pepino.",
                 descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
                 preco: "R$ 40,00",
                 imagem: pepino
               },
               itens: [
                 {
-                  nome: "Brócolis",
+                  nome: "Brócolis ",
                   imagem: brocolis,
                 },
                 {
-                  nome: "Pepino",
+                  nome: "Pepino  ",
                   imagem: pepino,
                 },
               ]
             },
             {
               detalhes: {
-                nome: "Brócolis",
+                nome: "Brócolis.",
                 descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
                 preco: "R$ 40,00",
     
@@ -56,7 +56,7 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Brócolis",
+                  nome: "Brocolis",
                   imagem: brocolis,
                 },
               ]
@@ -71,25 +71,25 @@ export default function Home({ navigation }) {
           cestas: [
             {
               detalhes: {
-                nome: "Brócolis e Pepino",
+                nome: "Brócolis e Pepinos. ",
                 descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
                 preco: "R$ 40,00",
                 imagem: pepino
               },
               itens: [
                 {
-                  nome: "Brócolis",
+                  nome: "Brócolis   ",
                   imagem: brocolis,
                 },
                 {
-                  nome: "Pepino",
+                  nome: "Pepino.  ",
                   imagem: pepino,
                 },
               ]
             },
             {
               detalhes: {
-                nome: "Brócolis",
+                nome: "Brocoli",
                 descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
                 preco: "R$ 40,00",
     
@@ -97,7 +97,7 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Brócolis",
+                  nome: "Brócolis    ",
                   imagem: brocolis,
                 },
               ]
@@ -120,22 +120,22 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Tomate",
+                  nome: "Tomate.",
                   imagem: tomate,
                 },
                 {
-                  nome: "Brócolis",
+                  nome: "Brócolis.    ",
                   imagem: brocolis,
                 },
                 {
-                  nome: "Pepino",
+                  nome: "Pepino.    ",
                   imagem: pepino,
                 },
               ]
             },
             {
               detalhes: {
-                nome: "Tomate e pepino",
+                nome: "Tomate e pepino ",
                 descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
                 preco: "R$ 40,00",
     
@@ -143,11 +143,11 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Tomate",
+                  nome: "Tomates",
                   imagem: tomate,
                 },
                 {
-                  nome: "Pepino",
+                  nome: "Pepino.     ",
                   imagem: pepino,
                 },
               ]
@@ -162,7 +162,7 @@ export default function Home({ navigation }) {
           cestas: [
             {
               detalhes: {
-                nome: "Muita Batata",
+                nome: "Muita Batata ",
                 descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
                 preco: "R$ 40,00",
     
@@ -170,14 +170,14 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Batata",
+                  nome: "Batatas",
                   imagem: batata,
                 },
               ]
             },
             {
               detalhes: {
-                nome: "Tomate e Brócolis",
+                nome: "Tomate e Brócolis. ",
                 descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
                 preco: "R$ 40,00",
     
@@ -185,11 +185,11 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Tomate",
+                  nome: "Tomate.      ",
                   imagem: tomate,
                 },
                 {
-                  nome: "Brócolis",
+                  nome: "Brócolis.         ",
                   imagem: brocolis,
                 },
               ]
@@ -204,7 +204,7 @@ export default function Home({ navigation }) {
           cestas: [
             {
               detalhes: {
-                nome: "Abobora e pepino",
+                nome: "Aboboras e pepino",
                 descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
                 preco: "R$ 40,00",
     
@@ -212,18 +212,18 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Abóbora",
+                  nome: "Abóboras. ",
                   imagem: abobora,
                 },
                 {
-                  nome: "pepino",
+                  nome: "pepinos.",
                   imagem: pepino,
                 }
               ]
             },
             {
               detalhes: {
-                nome: "Tomate e Abobora",
+                nome: "Tomate e Aboboras",
                 descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
                 preco: "R$ 40,00",
     
@@ -231,11 +231,11 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Tomate",
+                  nome: "Tomate.  ",
                   imagem: tomate,
                 },
                 {
-                  nome: "Abóbora",
+                  nome: "Abobora",
                   imagem: abobora,
                 }
               ]
@@ -250,7 +250,7 @@ export default function Home({ navigation }) {
           cestas: [
             {
               detalhes: {
-                nome: "Pepinos",
+                nome: "Pepinos.        ",
                 descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
                 preco: "R$ 40,00",
     
@@ -258,7 +258,7 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Pepino",
+                  nome: "Pepino.        ",
                   imagem: pepino,
                 },
               ]
@@ -273,15 +273,15 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Brócolis",
+                  nome: "Brocolis.          ",
                   imagem: brocolis,
                 },
                 {
-                  nome: "pepino",
+                  nome: "Pepinos",
                   imagem: pepino,
                 },
                 {
-                  nome: "Cenoura",
+                  nome: "Cenouras",
                   imagem: pepino,
                 }
               ]
@@ -296,7 +296,7 @@ export default function Home({ navigation }) {
           cestas: [
             {
               detalhes: {
-                nome: "Pepinos",
+                nome: "Pepinos.         ",
                 descricao: "Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha",
                 preco: "R$ 40,00",
     
@@ -304,7 +304,7 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Pepino",
+                  nome: "Pepino.      ",
                   imagem: pepino,
                 },
               ]
@@ -319,15 +319,15 @@ export default function Home({ navigation }) {
               },
               itens: [
                 {
-                  nome: "Brócolis",
+                  nome: "Brocolis.     ",
                   imagem: brocolis,
                 },
                 {
-                  nome: "pepino",
+                  nome: "Pepino. ",
                   imagem: pepino,
                 },
                 {
-                  nome: "Cenoura",
+                  nome: "cenoura",
                   imagem: pepino,
                 }
               ]

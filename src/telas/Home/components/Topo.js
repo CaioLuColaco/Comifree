@@ -7,7 +7,7 @@ export default function Topo() {
     return <>
         <View style={estilos.topo}>
             <Image source={logo} style={estilos.imagem} />
-            <Text style={estilos.boasVindas}>Olá</Text>
+            <Text style={estilos.boasVindas}>Olá Poupador,</Text>
             <Text style={estilos.legenda}>Encontre os fornecedores mais próximos de você!</Text>
         </View>
     </>
