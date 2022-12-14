@@ -20,7 +20,7 @@ const gerarNumeroAleatorio = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-export default function Home() {
+export default function Home({ navigation }) {
     const lista = [
         {
           nome: "Green",
@@ -346,7 +346,7 @@ export default function Home() {
     return <FlatList
     data={lista}
     renderItem={
-      ({ item }) => <Produtor {...item} aoPressionar={() => {}} />
+      ({ item }) => <Produtor {...item} aoPressionar={() => { navigation.navigate('Fornecedor', {...item})}} />
     }
     keyExtractor={({ nome }) => nome}
     ListHeaderComponent={TopoLista}
