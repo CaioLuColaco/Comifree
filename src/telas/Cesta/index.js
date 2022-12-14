@@ -1,13 +1,13 @@
 import React from "react"
 import { View, StyleSheet, ScrollView } from "react-native"
 
-import Topo from "./components/Topo"
+import Topo from "../../components/Topo"
 import Corpo from "./components/Corpo"
 import Lista from "./components/Lista"
 
 export default function Cesta() {
     return < ScrollView >
-        <Topo />
+        <Topo titulo={"Detalhes do Produto"}/>
 
         <View style={estilos.cesta}>
             <Corpo />

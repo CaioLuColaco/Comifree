@@ -29,8 +29,8 @@ export default function App() {
   return (
     <SafeAreaView onLayout={onLayoutRootView}>
       <StatusBar />
-      <Home />
-      {/* <Cesta /> */}
+      {/* <Home /> */}
+      <Cesta />
     </SafeAreaView>
   );
 }
