@@ -5,15 +5,14 @@ import Topo from "../../components/Topo"
 import Corpo from "./components/Corpo"
 import Lista from "./components/Lista"
 
-export default function Cesta() {
+export default function Cesta({route}) {
     return < ScrollView >
         <Topo titulo={"Detalhes do Produto"}/>
 
         <View style={estilos.cesta}>
-            <Corpo />
-            <Lista />
+            <Corpo dados={{...route.params}}/>
+            {/* <Lista /> */}
         </View>
-
 
     </ ScrollView> 
 }

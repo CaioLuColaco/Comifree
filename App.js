@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
-import {StatusBar, View, Text } from 'react-native';
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import {StatusBar} from 'react-native';
+import { SafeAreaProvider} from 'react-native-safe-area-context';
 
 import * as SplashScreen from 'expo-splash-screen';
 import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';

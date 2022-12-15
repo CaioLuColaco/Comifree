@@ -1,31 +1,18 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import { View, TouchableOpacity, Text, Image, StyleSheet } from 'react-native';
 
-import Estrelas from '../../../components/Estrelas';
-
-const distanciaEmMetros = (distancia) => {
-    return `${distancia}m`;
-}
-
-export default function Produtor({ nome, imagem, distancia, estrelas, aoPressionar }) {
-    const distanciaTexto = useMemo(
-        () => distanciaEmMetros(distancia),
-        [distancia]
-    );
+export default function Produtor({ name, location, aoPressionar }) {
 
     return <TouchableOpacity 
             style={estilos.cartao}
             onPress={aoPressionar}
         >
-        <Image source={imagem} style={estilos.imagem} accessibilityLabel={nome} />
+        <Image source={{url: 'https://api.lorem.space/image/pizza?w=150&amp;amp;amp;amp;h=220'}} style={estilos.imagem} accessibilityLabel={name} />
         <View style={estilos.informacoes}>
             <View>
-                <Text style={estilos.nome}>{ nome }</Text>
-                <Estrelas 
-                    quantidade={estrelas}
-                />
+                <Text style={estilos.nome}>{ name }</Text>
+                <Text style={estilos.endereco}>{ location }</Text>
             </View>
-            <Text style={estilos.distancia}>{ distanciaTexto }</Text>
         </View>
     </TouchableOpacity>
 
@@ -71,8 +58,9 @@ const estilos = StyleSheet.create({
         lineHeight: 22,
         fontWeight: 'bold',
     },
-    distancia: {
-        fontSize: 12,
-        lineHeight: 19,
-    },
+    endereco: {
+        fontSize: 16,
+        lineHeight: 26,
+        color: '#A3A3A3',
+    }
 });

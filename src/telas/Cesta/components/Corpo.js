@@ -3,15 +3,16 @@ import { View, Text, Image, StyleSheet } from "react-native"
 import Pressable from "react-native/Libraries/Components/Pressable/Pressable";
 import logo from "../../../../assets/logo.png"
 
-export default function Corpo() {
+export default function Corpo({dados}) {
+    const {title, description, price, name} = dados
     return <>
-        <Text style={estilos.nome}>Caixa de 1L de leite Itambé</Text>
+        <Text style={estilos.nome}>{title}</Text>
         <View style={estilos.marca}>
             <Image source={logo} style={estilos.logoFornecedor}/>
-            <Text style={estilos.fornecedor}>Mercadinho São Luiz</Text>
+            <Text style={estilos.fornecedor}>{name}</Text>
         </View>
-        <Text style={estilos.description}>Uma unidade de uma caixa de 1L de leite da conhecida Itambé, responsável por produtos lacteos de grande qualidade.</Text>
-        <Text style={estilos.price}>R$ 5,00</Text>
+        <Text style={estilos.description}>{description}</Text>
+        <Text style={estilos.price}>R$ {price}</Text>
         <Pressable style={ ({pressed}) => [{opacity: pressed ? 0.6 : 1}, estilos.button] } onPress={() => {}}>
             <Text style={estilos.textButton}>Comprar</Text>
         </Pressable>

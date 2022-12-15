@@ -4,23 +4,23 @@ import Topo from "../../components/Topo"
 import Cesta from "./componentes/Cesta"
 
 export default function Fornecedor({ route, navigation}) {
-    const { nome, imagem, cestas } = route.params
+    const { name, products } = route.params
     const TopoFornecedor = () => {
         return <>
             <Topo titulo={"Produtos do Fornecedor"} altura={250}/>
             <View style={estilos.conteudo}>
                 <View style={estilos.logo}>
-                    <Image source={imagem} style={estilos.produtorImage}/>
-                    <Text style={estilos.produtor}>{nome}</Text>
+                    <Image source={{url: 'https://api.lorem.space/image/pizza?w=150&amp;amp;amp;amp;h=220'}} style={estilos.produtorImage}/>
+                    <Text style={estilos.produtor}>{name}</Text>
                 </View>
                 <Text style={estilos.cestas}>Produtos</Text>
             </View>
         </>
     }
     return <FlatList 
-        data={cestas}
+        data={products}
         renderItem={
-            ({item}) => <Cesta {...item} produtor={{nome, imagem}}/> }
+            ({item}) => <Cesta {...item} produtor={{name}}/> }
         ListHeaderComponent={TopoFornecedor}
         style={estilos.lista}
     />

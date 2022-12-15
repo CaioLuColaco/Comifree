@@ -13,11 +13,11 @@ export default function Topo({ titulo, imagem = topo, altura = ALTURA_PADRAO }) 
   return <>
     <Image source={imagem} style={estilos.topo} />
     <Texto style={estilos.titulo}>{ titulo }</Texto>
-    <TouchableOpacity 
+    {/* <TouchableOpacity 
       onPress={() => {}}
       style={estilos.botaoVoltar}>
       <Image source={VoltarSVG} style={estilos.voltar} />
-    </TouchableOpacity>
+    </TouchableOpacity> */}
   </>
 }
 
